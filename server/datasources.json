@@ -1,0 +1,13 @@
+{
+  "yoga-ds": {
+    "database": "yoga-db",
+    "password": "YogaUnoDos34",
+    "name": "yoga-ds",
+    "connector": "mongodb",
+    "user": "yogAdmin"
+  },
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  }
+}

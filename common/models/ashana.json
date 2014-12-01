@@ -1,0 +1,21 @@
+{
+  "name": "Ashana",
+  "plural": "Ashanas",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "shortname": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
