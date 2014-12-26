@@ -1,10 +1,10 @@
 {
   "yoga-ds": {
     "database": "yoga-db",
+    "username": "yogAdmin",
     "password": "YogaUnoDos34",
     "name": "yoga-ds",
-    "connector": "mongodb",
-    "user": "yogAdmin"
+    "connector": "mongodb"
   },
   "db": {
     "name": "db",

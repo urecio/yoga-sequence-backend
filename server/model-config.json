@@ -29,5 +29,9 @@
   "Ashana": {
     "dataSource": "yoga-ds",
     "public": true
+  },
+  "Sequence": {
+    "dataSource": "yoga-ds",
+    "public": true
   }
 }

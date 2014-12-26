@@ -2,16 +2,19 @@
   "name": "Ashana",
   "plural": "Ashanas",
   "base": "PersistedModel",
-  "strict": false,
-  "idInjection": false,
   "properties": {
     "name": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "shortname": {
       "type": "string",
       "required": true
+    },
+    "id": {
+      "type": {
+        "generated": true,
+        "id": true
+      }
     }
   },
   "validations": [],
