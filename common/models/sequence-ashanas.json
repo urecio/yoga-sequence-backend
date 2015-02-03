@@ -1,0 +1,21 @@
+{
+  "name": "SequenceAshana",
+  "plural": "SequenceAshanas",
+  "base": "PersistedModel",
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "ashana": {
+      "type": "belongsTo",
+      "model": "Ashana",
+      "foreignKey": "ashanaId"
+    },
+    "sequence": {
+      "type": "belongsTo",
+      "model": "Sequence",
+      "foreignKey": "sequenceId"
+    }
+  },
+  "acls": [],
+  "methods": []
+}

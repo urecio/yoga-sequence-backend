@@ -11,9 +11,9 @@
   "validations": [],
   "relations": {
     "ashanas": {
-      "type": "hasAndBelongsToMany",
-      "model": "Ashana",
-      "foreignKey": ""
+      "type": "hasMany",
+      "model": "SequenceAshana",
+      "foreignKey": "sequenceId"
     }
   },
   "acls": [],

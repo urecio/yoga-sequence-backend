@@ -18,7 +18,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "sequences": {
+      "type": "hasMany",
+      "model": "SequenceAshana",
+      "foreignKey": "ashanaId"
+    }
+  },
   "acls": [],
   "methods": []
 }

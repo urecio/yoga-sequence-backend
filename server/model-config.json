@@ -33,5 +33,9 @@
   "Sequence": {
     "dataSource": "yoga-ds",
     "public": true
+  },
+  "SequenceAshana": {
+    "dataSource": "yoga-ds",
+    "public": false
   }
 }
